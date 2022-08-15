@@ -43,7 +43,7 @@ a {
     text-decoration:none; /*全てのリンクの下の線消す*/
 }
 
-
+/*どこ？*/
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;
@@ -51,22 +51,23 @@ a {
 	letter-spacing: 4px;
 }
 
-/* About Section */
+/* About Section 四角の見出しのところ*/
 .text_column {
 	width: 90%;
 	text-align: left;
-	font-weight: lighter;
-	line-height: 25px;
+	font-weight: lighter;/*フォントの太さ*/
+	line-height: 15px;/*元20px行間*/
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #A3A3A3;
 }
+
 .gallery {
 	clear: both;
 	display: inline-block;
 	width: 100%;
-	background-color: #FFFFFF;
+	background-color: #D5E3F2;/*真ん中の背景色*/
 	/* [disabled]min-width: 400px;
 */
 	padding-bottom: 35px;
@@ -137,6 +138,8 @@ a {
 	width: 80%;
 	margin-top: 4%;
 }
+
+
 .button {
 	width: 200px;
 	margin-top: 40px;
@@ -157,42 +160,62 @@ a {
 	color: #FFFFFF;
 	transition: all 0.3s linear;
 }
+
+
 .button:hover {
 	background-color: #6DC7D0;
 	color: #FFFFFF;
 	cursor: pointer;
 }
+
+
 .copyright {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #717070;
+	padding-top: 20px;/*元20px＠2022の上の幅*/
+	padding-bottom: 40px;/*元20px＠2022の下の幅*/
+	background-color: #D5E3F2;/*一番下の背景色*/
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
+
+
 footer {
-	background-color: #B3B3B3;
-	padding-top: 60px;
-	padding-bottom: 60PX;
+	background-color: #D5E3F2;
+	padding-top: 10px;/*元60pxフッターの上高さ*/
+	padding-bottom: 10PX;/*元60pxフッター下高さ*/
 }
-.intro {
+
+.intro {/*上から二番目の説明の部分*/
 	display: inline-block;
-	background-color: #6DC7D0;
+	background-color: #88A4DE;
 }
-.profile {
-	width: 50%;
+
+
+.profile {/*サイト説明のの写真のところ*/
+	width: 40%;/*元50％*/
 }
-.gallery .thumbnail .tag {
-	color: #5D5E5D;
-	padding-bottom: 4px;
-	padding-top: 4px;
-	text-align: left;
-	padding-left: 20px;
-	padding-right: 20px;
+
+.gallery .thumbnail .tag {/*映画館の名前のとこ*/
+	color: #0F1E48;/*映画館の名前の色*/
+	padding-bottom: 4px;/*元4px映画館の名前と下の説明の間*/
+	padding-top: 4px;/*元4px福岡市と題名の間*/
+	text-align: left;;/*劇場名左よせ*/
+	padding-left: 20px;/*劇場名左の幅*/
+	padding-right: 20px;/*劇場名右の幅*/
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Mobile */
 @media (max-width: 320px) {
