@@ -1,8 +1,9 @@
 @charset "UTF-8";
+
 /* Body */
 body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	background-color: #FFFFFF;
+	background-color: #D6E3F3;/*全体の背景色*/
 	margin: 0;
 }
 
@@ -12,16 +13,16 @@ body {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFFFF;
+	background-color: #FFFFFF;/*下の方のライン*/
 }
 
 
 /* Header */
 header {
 	width: 100%;
-	height: 8%;
-	background-color: #5D5E5D;
-	border-bottom: 1px solid #353635;
+	height: 10%;
+	background-color: #FFFFFF;/*ヘッダー背景色*/
+	border-bottom: 20px solid #D6E3F3;/*元1pxヘッダー下の線*/
 }
 
 /*サイト名の所*/
@@ -37,6 +38,11 @@ header {
 	font-size: 22px;/*元22px*/
 }
 
+/*aタグの全てのリンク*/
+a {
+    text-decoration:none; /*全てのリンクの下の線消す*/
+}
+
 
 .hero_header {
 	color: #FFFFFF;
@@ -44,6 +50,7 @@ header {
 	margin: 0;
 	letter-spacing: 4px;
 }
+
 /* About Section */
 .text_column {
 	width: 90%;
