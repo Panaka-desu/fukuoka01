@@ -3,6 +3,9 @@
 /* Body */
 body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	
+	font-family: "ヒラギノ丸ゴ ProN","Hiragino Maru Gothic ProN";/*こっちのヒラギノか下の筑紫B丸に変えた、ら資格たちの下に薄く白い線出てきた*/
+	font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック";
 	background-color: #D6E3F3;/*全体の背景色*/
 	margin: 0;
 }
@@ -23,6 +26,7 @@ header {
 	height: 10%;
 	background-color: #FFFFFF;/*ヘッダー背景色*/
 	border-bottom: 20px solid #D6E3F3;/*元1pxヘッダー下の線*/
+	
 }
 
 /*サイト名の所*/
@@ -67,32 +71,40 @@ a {
 	clear: both;
 	display: inline-block;
 	width: 100%;
-	background-color: #D5E3F2;/*真ん中の背景色*/
-	/* [disabled]min-width: 400px;
-*/
+	background-color: #D6E3F3;/*真ん中の背景色*/
+	/* [disabled]min-width: 400px;*/
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: -5px;
 	margin-bottom: 0px;
 }
+
+
+/*四角たち*/
 .thumbnail {
-	width: 23%;
+	height: 300px;/*元はない、資格たちの高さを揃える*/
+	width: 23%;/*元23%四角全体の横幅*/
 	text-align: center;
 	float: left;
-	margin-top: 35px;
-	background-color: #F8F8F8;
-	padding-bottom: 20px;
+	margin-top: 60px;/*もと35px四角たちとこのサイトはの間*/
+	background-color: #F8F8F8;/*四角たちの背景色*/
+	padding-bottom: 18px;/*元20px四角の説明文の下の幅*/
 	margin-left: 1%;
 	margin-right: 1%;
-	border-radius: 3px;
+	border-radius: 10px;/*元3px四角館の角を丸める*/
 	padding-top: 20px;
-	border-bottom: 4px solid #6DC7D0;
+	border-bottom: 4px solid #87A4DE;/*元4pxbototomで四角の下に線、topは上に線*/
 }
+
+
+/*福岡市のとこ*/
 .gallery .thumbnail h4 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	color: #52BAD5;
+	font-family: "ヒラギノ丸ゴ ProN","Hiragino Maru Gothic ProN";/*福岡市のフォント*/
+	margin-top: 0.6px;/*元5px福岡市の上の幅*/
+	margin-bottom: -5px;/*元5px福岡市の下の幅*/
+	color: #787878;/*福岡市の色*/
 	text-align: left;
+	font-size: 15px;/*文字の大きさ*/
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -173,24 +185,28 @@ a {
 	text-align: center;
 	padding-top: 20px;/*元20px＠2022の上の幅*/
 	padding-bottom: 40px;/*元20px＠2022の下の幅*/
-	background-color: #D5E3F2;/*一番下の背景色*/
+	background-color: #D6E3F3;/*一番下の背景色*/
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
+	
 }
 
 
 footer {
-	background-color: #D5E3F2;
+	background-color: #D6E3F3;
 	padding-top: 10px;/*元60pxフッターの上高さ*/
 	padding-bottom: 10PX;/*元60pxフッター下高さ*/
 }
 
-.intro {/*上から二番目の説明の部分*/
+
+/*上から二番目の説明の部分*/
+.intro {
 	display: inline-block;
 	background-color: #88A4DE;
+	border-radius: 20px;/*元はなない、後ろの角見えてる、角丸くする*/
 }
 
 
@@ -199,7 +215,8 @@ footer {
 }
 
 .gallery .thumbnail .tag {/*映画館の名前のとこ*/
-	color: #0F1E48;/*映画館の名前の色*/
+	font-size: 20px;/*文字の大きさ福岡市は15px*/
+	color: #5F7AB7;/*映画館の名前の色*/
 	padding-bottom: 4px;/*元4px映画館の名前と下の説明の間*/
 	padding-top: 4px;/*元4px福岡市と題名の間*/
 	text-align: left;;/*劇場名左よせ*/
