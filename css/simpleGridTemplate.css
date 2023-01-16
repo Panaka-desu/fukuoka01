@@ -31,13 +31,15 @@ header {
 
 /*サイト名の所*/
 .logo {
+	width: 250px;
+    height: auto;
 	color: #fff;/*題名の色*/
 	font-weight: bold;/*フォントの太さ*/
 	margin-left: auto;
 	letter-spacing: 4px;
 	margin-right: auto;
 	text-align: center;
-	padding-top: 35px;/*元15px上の広さ*/
+	padding-top: 3px;/*元15px上の広さ*/
 	line-height: 2em;/*元2rem*/
 	font-size: 22px;/*元22px*/
 }
@@ -215,6 +217,7 @@ footer {
 }
 
 .gallery .thumbnail .tag {/*映画館の名前のとこ*/
+	font-family: "ヒラギノ丸ゴ ProN","Hiragino Maru Gothic ProN";
 	font-size: 20px;/*文字の大きさ福岡市は15px*/
 	color: #5F7AB7;/*映画館の名前の色*/
 	padding-bottom: 4px;/*元4px映画館の名前と下の説明の間*/
@@ -225,7 +228,12 @@ footer {
 }
 
 
-
+.thumbnail img {
+	object-fit: cover;
+    height: 100%;
+	height: 180px;
+	
+}
 
 
 
